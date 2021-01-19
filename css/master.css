@@ -3,8 +3,20 @@ body {
   margin: 0px;
 }
 
+.titolo {
+  display: inline-block;
+  height: 10%;
+  width: 100%;
+  margin: 0px 0px 4% 0;
+}
+
+#titolo::before {
+  content: url('../img/logo.png');
+  vertical-align: middle;
+}
+
 #titolo {
-  margin: 0px 0px 2% 0px;
+  margin: 0px;
 }
 
 .white {
