@@ -1,0 +1,141 @@
+body {
+  background-color: #f6f8f9;
+  margin: 0px;
+}
+
+#titolo {
+  margin: 0px 0px 2% 0px;
+}
+
+.white {
+  background-color: white;
+}
+
+.corpo {
+  margin: 0 20% 3px 20%;
+  padding: 10px 40px;
+}
+
+.button {
+  border-radius: 5px;
+  background-color: #47adf1;
+  color: white;
+  height: 23px;
+  border-style: none;
+}
+
+.input{
+  border-radius: 5px;
+}
+
+ul {
+  margin: 0 0 5% 0;
+  list-style:none;
+  padding: 0;
+}
+
+h3 {
+  margin: 0 0 1% 0;
+}
+
+.lista::before {
+  content: '\25bc';
+  font-size: 10px;
+}
+
+.sottolista-check::before {
+  content: '\2713';
+  font-size: 12px;
+  color: green;
+  border-radius: 5px;
+  border-style:solid;
+  border-width: thin;
+  border-color: green;
+}
+
+.sottolista-cross::before {
+  content: '\2715';
+  font-size: 12px;
+  color: red;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: thin;
+  border-color: red;
+}
+
+span {
+  display:inline-block;
+  margin: 1% 0;
+}
+
+.editorial {
+  display: inline-block;
+  margin: auto;
+  background-color: #47adf1;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
+
+.goal {
+  display: inline-block;
+  margin: auto;
+  background-color: #9c72e4;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
+
+.recruiting {
+  display: inline-block;
+  margin: auto;
+  background-color: #64c0a9;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
+
+.mobile {
+  display: inline-block;
+  margin: auto;
+  background-color: #f29e33;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
+
+.website {
+  display: inline-block;
+  margin: auto;
+  background-color: #d863a1;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
+
+.sales {
+  display: inline-block;
+  margin: auto;
+  background-color: #b0c926;
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 8px;
+  height: 18px;
+  width: auto;
+}
